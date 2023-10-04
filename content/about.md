@@ -25,7 +25,7 @@ Created using [Hugo](https://gohugo.io/), [HugoModules](https://hugomods.com/en/
 
 ## Privacy
 
-This site does not collect any data. This is a compltetly staticly hosted site on github pages with Katex, Mermaid, Utterances, FuseJS.
+This site does not collect any data. This is a 100% staticly hosted site on github pages with Katex, Mermaid, Utterances, FuseJS.
 
 ## Contact Me
 
