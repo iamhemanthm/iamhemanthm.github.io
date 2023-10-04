@@ -58,7 +58,7 @@ params:
     mermaid:
       js_url: https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs
     editPost:
-        URL: "https://github.com/iamhemanthm/iamhemanthm.github.io/tree/main"
+        URL: "https://github.com/iamhemanthm/iamhemanthm.github.io/tree/main/content"
         Text: "Suggest Changes"
         appendFilePath: true # to append file path to Edit link
     homeInfoParams:
