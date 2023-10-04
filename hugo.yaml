@@ -1,0 +1,80 @@
+baseURL: https://iamhemanthm.github.io/
+title: "@iamhemanthm"
+paginate: 5
+theme: PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# https://medium.com/@magstherdev/github-pages-hugo-86ae6bcbadd
+# https://adityatelange.github.io/hugo-PaperMod/
+module:
+  imports:
+    - path : github.com/hugomods/mermaid
+    - path : github.com/hugomods/katex
+    - path : github.com/hugomods/shortcodes
+    - path : github.com/hugomods/utterances
+
+markup:
+  goldmark:
+    renderer:
+      unsafe : true
+
+menu:
+    main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: About
+          url: about/
+          weight: 20
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+params:
+    showPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowToc: true
+    comments: true
+    defaultTheme: auto
+    ShowReadingTime: true
+    hideFooter: true
+    utterances:
+      endpoint: 'https://utteranc.es/'
+      repo: 'iamhemanthm/iamhemanthm.github.io'
+      mapping: pathname
+      label: comments
+      theme: preferred-color-scheme
+    mermaid:
+      js_url: https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs
+    editPost:
+        URL: "https://github.com/iamhemanthm/iamhemanthm.github.io/tree/main"
+        Text: "Suggest Changes"
+        appendFilePath: true # to append file path to Edit link
+    homeInfoParams:
+        Title: "Hello 👋"
+        Content: >
+            - Welcome to my site
+
+            - This is site is currently new, I have started this site to increase my reach & share my knowledge & Experiences.
+
+            - Browse posts by [Tags](https://iamhemanthm.github.io/tags/) or [Categories](https://iamhemanthm.github.io/categories/) & Do give a 🌟 on Github!
+    socialIcons:
+        - name: github
+          url: "https://github.com/iamhemanthm/"
+        - name: Linkedin
+          url: "https://www.linkedin.com/in/hemanth-m/"
+        - name: Twitter
+          url: "https://x.com/HemanthMahantu"
+        - name: Rss
+          url: "index.xml"
